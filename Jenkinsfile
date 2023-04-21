@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'JDK_17' }
+    agent { label 'JAVA_17' }
     stages {
         stage('vcs') {
             steps {
